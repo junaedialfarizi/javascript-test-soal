@@ -115,14 +115,61 @@
 
 
 //soal 7
-function angkeGenap(arr) {
-    // Menggunakan method Array.filter() untuk menyaring angka yang genap
-    const angkaGenap = arr.filter((angka) => angka % 2 === 0);
+// function angkeGenap(arr) {
+//     // Menggunakan method Array.filter() untuk menyaring angka yang genap
+//     const angkaGenap = arr.filter((angka) => angka % 2 === 0);
   
-    // Mengembalikan jumlah angka genap
-    return angkaGenap.length;
-  }
+//     // Mengembalikan jumlah angka genap
+//     return angkaGenap.length;
+//   }
   
-  console.log(angkeGenap([1, 2, 3, 4, 5, 6]));
-  console.log(angkeGenap([4, 4, 4, 4, 4, 4]));
-  console.log(angkeGenap([3, 5, 7, 9, 10, 100]));
+//   console.log(angkeGenap([1, 2, 3, 4, 5, 6]));
+//   console.log(angkeGenap([4, 4, 4, 4, 4, 4]));
+//   console.log(angkeGenap([3, 5, 7, 9, 10, 100]));
+
+
+
+//soal 8
+// function rentangTahun(tahunMulai, tahunAkhir) {
+//     // Membuat array kosong
+//     const arrayTahun = [];
+  
+//     // Menggunakan perulangan for untuk mengisi array
+//     for (let tahun = tahunMulai; tahun <= tahunAkhir; tahun++) {
+//       // Menambahkan tahun ke dalam array
+//       arrayTahun.push(tahun);
+//     }
+  
+//     // Mengembalikan array
+//     return arrayTahun;
+//   }
+  
+//   console.log(rentangTahun(2013, 2023));
+
+
+//soal 9
+// const film = [
+//     {
+//       judul: 'Black Panther: Wakanda Forever',
+//       tahun: 2022
+//     },
+//     {
+//       judul: 'Avenger: End Game',
+//       tahun: 2019
+//     },
+//     {
+//       judul: 'Thor: Ragnarok',
+//       tahun: 2017
+//     }
+//   ];
+  
+//   // Menggunakan method Array.map()
+//   const tambahProperty = film.map((film) => ({
+//     ...film,
+//     komik: 'Marvel'
+//   }));
+  
+//   console.log(tambahProperty);
+
+
+  
